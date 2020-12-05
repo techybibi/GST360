@@ -23,6 +23,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	<link href="css/vendors.css" rel="stylesheet">
+	<link href="content/css/custom.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
@@ -33,12 +34,13 @@
 		
 	<div id="page">
 		
-	<header class="header menu_fixed">
-		<div id="logo">
-			<a href="index.html" title="Sparker - Directory and listings template">
-				<img src="img/logo.svg" width="165" height="35" alt="" class="logo_normal">
-				<img src="img/logo_sticky.svg" width="165" height="35" alt="" class="logo_sticky">
-			</a>
+	<header class="header_in is_sticky menu_fixed">
+		<div class="col-lg-3 col-12">
+			<div id="logo">
+				<a href="index.html" title="Sparker - Directory and listings template">
+					<img src="content/img/logo.png" width="166" height="64" alt="" class="logo_sticky">
+				</a>
+			</div>
 		</div>
 		<ul id="top_menu">
 			<li><a href="account.html" class="btn_add">Add Listing</a></li>
@@ -55,17 +57,8 @@
 		</a>
 		<nav id="menu" class="main-menu">
 			<ul>
-				<li><span><a href="#0">Home</a></span>
-					<ul>
-						<li><a href="index.html">Home version 1</a></li>
-						<li><a href="index-2.html">Home version 2</a></li>
-						<li><a href="index-3.html">Home version 3</a></li>
-						<li><a href="index-4.html">Home version 4</a></li>
-						<li><a href="index-5.html">Home version 5</a></li>
-						<li><a href="index-6.html">Home version 6 (GDPR)</a></li>
-					</ul>
-				</li>
-				<li><span><a href="#0">Listings</a></span>
+				<li><span><a href="#0">HOME</a></span></li>
+				<li><span><a href="#0">RESOURCE</a></span>
 					<ul>
 						<li>
 							<span><a href="#0">Grid Layout</a></span>
@@ -77,121 +70,42 @@
 								<li><a href="grid-listings-isotope.html">Full+Isotope filter</a></li>
 							</ul>
 						</li>
-						<li>
-							<span><a href="#0">Row Layout</a></span>
-							<ul>
-								<li><a href="row-listings-filterscol-search-aside.html">Sidebar+Search mobile 1</a></li>
-								<li><a href="row-listings-filterstop-search-aside.html">Full+Search mobile 1</a></li>
-								<li><a href="row-listings-filterscol.html">Sidebar+Search mobile 2</a></li>
-								<li><a href="row-listings-filterstop.html">Full+Search mobile 2</a></li>
-								<li><a href="row-listings-isotope.html">Full+Isotope filter</a></li>
-							</ul>
-						</li>
-						<li><a href="listing-map.html">Listing Map</a></li>
-						<li>
-							<span><a href="#0">Detail pages</a></span>
-							<ul>
-								<li><a href="detail-hotel.html">Detail page 1</a></li>
-								<li><a href="detail-restaurant.html">Detail page 2</a></li>
-								<li><a href="detail-shop.html">Detail page 3</a></li>
-							</ul>
-						</li>
-                        <li><a href="bookings.html">Bookings - Purchases</a></li>
-						<li><a href="checkout.html">Checkout</a></li>
-						<li><a href="confirm.html">Confirm</a></li>
 					</ul>
 				</li>
-				<li><span><a href="#0">Pages</a></span>
-					<ul>
-						<li><a href="admin_section/index.html">Admin section</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="account.html">Account</a></li>
-						<li><a href="help.html">Help Section</a></li>
-						<li><a href="faq.html">Faq Section</a></li>
-						<li><a href="wishlist.html">Wishlist page</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
-						<li>
-							<span><a href="#0">Icon Packs</a></span>
-							<ul>
-								<li><a href="icon-pack-1.html">Icon pack 1</a></li>
-								<li><a href="icon-pack-2.html">Icon pack 2</a></li>
-								<li><a href="icon-pack-3.html">Icon pack 3</a></li>
-								<li><a href="icon-pack-4.html">Icon pack 4</a></li>
-							</ul>
-						</li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="media-gallery.html">Media gallery</a></li>
-					</ul>
-				</li>
-				<li><span><a href="#0">Extra</a></span>
-					<ul>
-						<li><a href="404.html">404 page</a></li>
-						<li><a href="contacts-2.html">Contacts 2</a></li>
-						<li><a href="pricing-tables.html">Pricing tables</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="menu-options.html">Menu Options</a></li>
-						<li><a href="invoice.html">Invoice</a></li>
-						<li><a href="coming_soon/index.html">Coming Soon</a></li>
-					</ul>
-				</li>
-				<li><span><a href="#0">Buy template</a></span></li>
+				<li><span><a href="#0">CONTACT US</a></span></li>
 			</ul>
 		</nav>
 	</header>
 	<!-- /header -->
 	
 	<main>
-		<section class="hero_single version_4">
+		<section class="tb_hero_single">
 			<div class="wrapper">
 				<div class="container">
-					<h3>Find what you need!</h3>
-					<p>Discover top rated hotels, shops and restaurants around the world</p>
-					<form method="post" action="grid-listings-filterscol.html">
-						<div class="row no-gutters custom-search-input-2">
-							<div class="col-lg-4">
-								<div class="form-group">
-									<input class="form-control" type="text" placeholder="What are you looking for...">
-									<i class="icon_search"></i>
-								</div>
-							</div>
-							<div class="col-lg-3">
-								<div class="form-group">
-									<input class="form-control" type="text" placeholder="Where">
-									<i class="icon_pin_alt"></i>
-								</div>
-							</div>
-							<div class="col-lg-3">
-								<select class="wide">
-									<option>All Categories</option>	
-									<option>Shops</option>
-									<option>Hotels</option>
-									<option>Restaurants</option>
-									<option>Bars</option>
-									<option>Events</option>
-									<option>Fitness</option>
-								</select>
-							</div>
-							<div class="col-lg-2">
-								<input type="submit" value="Search">
-							</div>
+
+					<div class="row justify-content-center pt-lg-5">
+
+						<div class="tb_col-xl-6 tb_col-lg-7">
+							<img src="content/img/home-bnr.png" width="900" height="600" alt="" class="img-fluid">
 						</div>
-						<!-- /row -->
-					</form>
-					<ul class="counter">
-						<li><strong>256,020</strong> Locations</li>
-						<li><strong>150,543</strong> Active users</li>
-					</ul>
+
+						<div class="tb_col-xl-5 col-lg-6">
+								<h3>Around View
+									</br>of GST</h3>
+								<p>Discover whats new in GST, Latest Updates, Acts & Rules, Rate Finder, Last Dates, Council Mettings and lot more. . . </p>
+								<p><a href="account.html" class="btn_add">Add Listing</a></p>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>
 		<!-- /hero_single -->	
 
 		<div class="container-fluid margin_80_55">
-			<div class="main_title_2">
-				<span><em></em></span>
-				<h2>Popular listings</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+			<div class="tb_main_title">
+				<h2>Welcome to GST360</h2>
+				<p>GST360 is a platform where allam pettanu kittum enooka vewnamakil parayam, evide athina pattiya kurechu discription anu verunnathu. Ethina patti parauvanakil ethu veliya oru ethanu.</p>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
 				<div class="item">
